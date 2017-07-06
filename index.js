@@ -1,5 +1,6 @@
 const fs = require('fs');
 const split = require('split');
+const path = require('path');
 
 const read = filename =>
   new Promise((resolve, reject) => {
@@ -50,6 +51,19 @@ const write = (data, filename) =>
     });
   });
 
+const readFromFolder = async folder => {
+  const list = fs.readdirSync(folder);
+  const data = [];
+
+  for (file of list) {
+    const single = await read(path.join(folder, file));
+    data.push(...single);
+  };
+
+  return data;
+}
+
 module.exports.read = read;
 module.exports.readSingle = readSingle;
 module.exports.write = write;
+module.exports.readFromFolder = readFromFolder;
