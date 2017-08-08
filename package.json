@@ -1,26 +1,23 @@
 {
-  "name": "ez-fasta",
-  "version": "0.0.2",
-  "description": "Module for parsing files in FASTA-format",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/stasundr/ez-fasta.git"
-  },
-  "keywords": [
-    "fasta",
-    "javascript"
-  ],
-  "author": "Stanislav Dryomov",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/stasundr/ez-fasta/issues"
-  },
-  "homepage": "https://github.com/stasundr/ez-fasta#readme",
-  "dependencies": {
-    "split": "^1.0.0"
-  }
+    "name": "ez-fasta",
+    "version": "0.0.4",
+    "description": "Module for parsing files in FASTA-format",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/stasundr/ez-fasta.git"
+    },
+    "keywords": ["fasta", "javascript"],
+    "author": "Stanislav Dryomov",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/stasundr/ez-fasta/issues"
+    },
+    "homepage": "https://github.com/stasundr/ez-fasta#readme",
+    "dependencies": {
+        "split": "^1.0.0"
+    }
 }

@@ -41,7 +41,7 @@ async function analyze(folder) {
 
 ```readFromFolder(path)``` - читает все файлы из папки и возвращает промис для массива из объектов вида ```[... { label, sequence }]```. Внимание! Эта функция не делает никаких предварительных проверок на валидность входящих файлов и читает всё подряд.
 
-```write(data, path)``` - создаёт корректный fasta-файл из массива объектов ```[... { label, sequence }]```.
+```write(data, path)``` - создаёт корректный fasta-файл из объекта ```{ label, sequence }``` или из массива объектов ```[... { label, sequence }]```.
 
 ---
 Take a look at [mtget](https://github.com/stasundr/mtget), a tiny nodejs program, if you need to download fasta sequences from [GenBank](https://www.ncbi.nlm.nih.gov/genbank/).
