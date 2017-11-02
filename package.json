@@ -1,6 +1,6 @@
 {
     "name": "ez-fasta",
-    "version": "0.0.4",
+    "version": "0.1.0",
     "description": "Module for parsing files in FASTA-format",
     "main": "index.js",
     "scripts": {
@@ -10,7 +10,7 @@
         "type": "git",
         "url": "git+https://github.com/stasundr/ez-fasta.git"
     },
-    "keywords": ["fasta", "javascript"],
+    "keywords": ["fasta", "javascript", "bioinformatics"],
     "author": "Stanislav Dryomov",
     "license": "MIT",
     "bugs": {
